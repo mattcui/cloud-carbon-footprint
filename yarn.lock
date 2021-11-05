@@ -2061,14 +2061,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cloud-carbon-footprint/app@0.3.0, @cloud-carbon-footprint/app@^0.3.0, @cloud-carbon-footprint/app@workspace:packages/app":
+"@cloud-carbon-footprint/app@0.3.1, @cloud-carbon-footprint/app@^0.3.0, @cloud-carbon-footprint/app@workspace:packages/app":
   version: 0.0.0-use.local
   resolution: "@cloud-carbon-footprint/app@workspace:packages/app"
   dependencies:
-    "@cloud-carbon-footprint/aws": ^0.5.0
+    "@cloud-carbon-footprint/aws": ^0.5.2
     "@cloud-carbon-footprint/azure": ^0.4.0
     "@cloud-carbon-footprint/common": ^1.2.0
-    "@cloud-carbon-footprint/gcp": ^0.4.0
+    "@cloud-carbon-footprint/gcp": ^0.5.0
     "@google-cloud/monitoring": ^2.3.1
     "@google-cloud/storage": ^5.8.5
     "@types/jest": ^27.0.1
@@ -2092,7 +2092,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cloud-carbon-footprint/aws@^0.5.0, @cloud-carbon-footprint/aws@workspace:packages/aws":
+"@cloud-carbon-footprint/aws@^0.5.2, @cloud-carbon-footprint/aws@workspace:packages/aws":
   version: 0.0.0-use.local
   resolution: "@cloud-carbon-footprint/aws@workspace:packages/aws"
   dependencies:
@@ -2167,7 +2167,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cloud-carbon-footprint/cli@workspace:packages/cli"
   dependencies:
-    "@cloud-carbon-footprint/app": 0.3.0
+    "@cloud-carbon-footprint/app": 0.3.1
     "@cloud-carbon-footprint/common": ^1.2.0
     "@types/cli-table": ^0.3.0
     "@types/jest": ^27.0.1
@@ -2357,7 +2357,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cloud-carbon-footprint/gcp@^0.4.0, @cloud-carbon-footprint/gcp@workspace:packages/gcp":
+"@cloud-carbon-footprint/gcp@^0.5.0, @cloud-carbon-footprint/gcp@workspace:packages/gcp":
   version: 0.0.0-use.local
   resolution: "@cloud-carbon-footprint/gcp@workspace:packages/gcp"
   dependencies:

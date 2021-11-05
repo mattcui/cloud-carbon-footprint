@@ -1,5 +1,11 @@
 # @cloud-carbon-footprint/gcp
 
+## 0.5.0
+
+### Minor Changes
+
+- 9b30bb5e: Add support for GCP Tau T2D (AMD EPYC Gen 3) instance types
+
 ## 0.4.1
 
 ### Patch Changes

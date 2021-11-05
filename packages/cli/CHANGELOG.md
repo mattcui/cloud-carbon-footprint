@@ -1,5 +1,11 @@
 # @cloud-carbon-footprint/cli
 
+## 1.1.1
+
+### Patch Changes
+
+- @cloud-carbon-footprint/app@0.3.1
+
 ## 1.1.0
 
 ### Minor Changes
