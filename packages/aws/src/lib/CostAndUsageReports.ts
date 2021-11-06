@@ -141,6 +141,7 @@ export default class CostAndUsageReports {
           { VarCharValue: 'vCpus' },
           { VarCharValue: 'cost' },
           { VarCharValue: 'usageAmount' },
+          { VarCharValue: 'resourceId' },
         ],
       }
       const usageRowData = [
@@ -153,6 +154,7 @@ export default class CostAndUsageReports {
         { VarCharValue: inputDataRow.vCpus },
         { VarCharValue: '1' },
         { VarCharValue: '1' },
+        { VarCharValue: inputDataRow.resourceId },
       ]
       const costAndUsageReportRow = new CostAndUsageReportsRow(
         usageRowsHeader,
@@ -173,6 +175,7 @@ export default class CostAndUsageReports {
           vCpus: inputDataRow.vCpus,
           kilowattHours: footprintEstimate.kilowattHours,
           co2e: footprintEstimate.co2e,
+          resourceId: inputDataRow.resourceId,
         })
       }
     })
@@ -189,6 +192,7 @@ export default class CostAndUsageReports {
             vCpus: inputDataRow.vCpus,
             kilowattHours: footprintEstimate.kilowattHours,
             co2e: footprintEstimate.co2e,
+            resourceId: inputDataRow.resourceId,
           })
       })
     }

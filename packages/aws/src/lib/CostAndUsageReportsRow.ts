@@ -48,6 +48,7 @@ export default class CostAndUsageReportsRow extends BillingDataRow {
     this.cloudProvider = 'AWS'
     this.instanceType = this.parseInstanceTypeFromUsageType()
     this.replicationFactor = this.getReplicationFactor(billingDataRow)
+    this.resourceId = this.resourceId
 
     const config = configLoader()
     const AWS: CCFConfig['AWS'] = config.AWS

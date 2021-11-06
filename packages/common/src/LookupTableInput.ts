@@ -9,6 +9,7 @@ export type LookupTableInput = {
   usageUnit: string
   vCpus?: string
   machineType?: string
+  resourceId?: string
 }
 
 export type LookupTableOutput = {
@@ -20,4 +21,5 @@ export type LookupTableOutput = {
   machineType?: string
   kilowattHours: number
   co2e: number
+  resourceId?: string
 }

@@ -11,6 +11,7 @@ export async function writeToCsv(
   const csvWriter = createObjectCsvWriter({
     path: outputFileName,
     header: [
+      { id: 'resourceId', title: 'resourceId' },
       { id: 'serviceName', title: 'serviceName' },
       { id: 'region', title: 'region' },
       { id: 'usageType', title: 'usageType' },
